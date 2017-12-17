@@ -1,0 +1,27 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// @import "compass/reset";
+
+@import 'helpers/variables';
+@import 'base/normalize';
+@import 'base/typography';
+@import 'helpers/mixins';
+@import 'base/grid';
+$sitemap-spacing: 10px; 
+@import '../images/sitemap/*.png';
+@include all-sitemap-sprites;
+@import 'components/links';
+@import 'components/modifers';
+@import 'layout/header';
+@import 'layout/slider';
+@import 'layout/sitemap';
+@import 'layout/latest-works';
+@import 'layout/footer';
+//@import 'layout/sidebar';
+@import 'layout/forms';
+@import 'components/buttons';
+@import 'components/dropdown';
+@import 'components/navigation';

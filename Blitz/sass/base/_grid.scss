@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+}
+.wrap {
+	max-width: 940px;
+	margin: 0 auto;
+}
+/*------- clear fix hack ------*/
+.clear:after {
+	clear: both;
+	display: table;
+	content: " ";
+}

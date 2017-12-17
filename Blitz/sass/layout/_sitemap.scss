@@ -1,0 +1,37 @@
+.sitemap {
+	margin-bottom: 25px;
+}
+.sitemap__item {
+	padding: 5px;
+	float: left;
+	max-width: 285px;
+	margin-right: 28px;
+}
+.sitemap-item__header {
+	float: right;
+	max-width: 220px;
+	text-align: right;
+	font-family: $bebas;
+	font-weight: normal;
+	font-size: 20px;
+	word-spacing: $two;
+	line-height: 1.1em;
+	text-transform: uppercase;
+	color: $d_f_gray;
+	margin-bottom: 32px;
+}
+.sitemap-icon {
+	display: block;
+	float: left;
+	width: 47px;
+	height: 40px;
+}
+.sitemap-item__text {
+	margin-bottom: 10px;
+	font-size: 12px;
+	line-height: 1.3em;
+	color: $d_f_gray;
+}
+.sitemap-item__full-link {
+	
+}
